@@ -1,0 +1,76 @@
+@mixin cornered-box($top-left, $top-right, $bottom-right, $bottom-left){
+    -webkit-border-radius: $top-left $top-right $bottom-right $bottom-left;
+    -moz-border-radius: $top-left $top-right $bottom-right $bottom-left;
+    -o-border-radius: $top-left $top-right $bottom-right $bottom-left;
+    -ms-border-radius: $top-left $top-right $bottom-right $bottom-left;
+    border-radius: $top-left $top-right $bottom-right $bottom-left;
+}
+
+@mixin background-gradation($bright-color, $dark-color){
+    background-image: -o-linear-gradient(90deg, $bright-color 0%, $dark-color 100%);
+    background-image: -moz-linear-gradient(90deg, $bright-color 0%, $dark-color 100%);
+    background-image: -ms-linear-gradient(90deg, $bright-color 0%, $dark-color 100%);
+    background-image: linear-gradient(0deg, $bright-color 0%, $dark-color 100%);
+}
+
+@mixin text-decoration-shadow($dis-x, $dis-y, $blur, $shadow-color){
+    text-shadow: $dis-x $dis-y $blur $shadow-color;
+}
+
+@mixin arrow($border-val, $width-height-val, $border-color, $rotate-value){
+    display: block;
+    position: absolute;
+    width: $width-height-val;
+    height: $width-height-val;
+    margin-top: -$border-val;
+    border-top: $border-val solid $border-color;
+    border-right: $border-val solid $border-color;
+    -webkit-transform: rotate($rotate-value+deg);
+    -moz-transform: rotate($rotate-value+deg);
+    -o-transform: rotate($rotate-value+deg);
+    -ms-transform: rotate($rotate-value+deg);
+    transform: rotate($rotate-value+deg);
+    content: "";
+}
+
+@mixin reservation-button(){
+    @include background-image(linear-gradient(to top, #bd0a0a 0%, #e0312b 100%));
+    border: 1px solid #bf0c0b;
+    @include border-radius(5px);
+}
+
+@mixin search-button(){
+    @include background-image(linear-gradient(to top, #e15903 0%, #f88235 100%));
+    border: 1px solid #e25b05;
+    @include border-radius(5px);
+}
+
+@mixin other-button-a(){
+    @include background-image(linear-gradient(to top, #333 0%, #666 100%));
+    border: 1px solid #393939;
+    @include border-radius(5px);
+}
+
+@mixin other-button-b(){
+    @include background-image(linear-gradient(to top, #646464 0%, #9a9a9a 100%));
+    border: 1px solid #626262;
+    @include border-radius(5px);
+}
+
+@mixin other-button-c(){
+    @include background-image(linear-gradient(to top, #eaeaea 0%, #efefef 100%));
+    border: 1px solid #ccc;
+    @include border-radius(5px);
+}
+
+@mixin accenct-button-a(){
+    @include background-image(linear-gradient(180deg, #87c03a 0%, #71a22f 100%));
+    border: 1px solid #71a230;
+    @include border-radius(5px);
+}
+
+@mixin accent-button-b(){
+    @include background-image(linear-gradient(to top, #041538 0%, #032160 100%));
+    border: 1px solid #04163a;
+    @include border-radius(5px);
+}
