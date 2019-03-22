@@ -54,7 +54,7 @@
         </dl>
         <hr>
         <style>
-            button{
+            button.small{
                 font-size: 14px;
                 line-height: 1.57142857143;
                 font-weight: 700;
@@ -64,8 +64,24 @@
                 border-radius: 3px;
                 border: none;
                 text-align: center;
+                min-width: 90px;
+            }
+            button.large{
+                font-size: 14px;
+                line-height: 1.57142857143;
+                font-weight: 700;
+                color: white;
+                padding: 16px 24px;
+                background-color: #068000;
+                border-radius: 3px;
+                border: none;
+                text-align: center;
+                min-width: 90px;
             }
         </style>
-        <a href="https://google.com" style="display: inline-block"><button>Label</button></a>
+        <a href="https://google.com" style="display: inline-block"><button class="small">Label</button></a>
+        <br>
+        <br>
+        <a href="https://google.com" style="display: inline-block"><button class="large">Label</button></a>
     </body>
 </html>
