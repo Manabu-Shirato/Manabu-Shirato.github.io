@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 64px;
+}
+.bold{
+    font-weight: 700;
+}
+p{
+    padding: 0 16px;
+}
+ul{
+    list-style-position: inside;
+}
+ul.large{
+    font-size: 16px;
+    line-height: 1.8125;
+    padding: 16px;
+}
+ul.small{
+    font-size: 14px;
+    line-height: 1.85714285714;
+    padding: 16px;
+}
+dl{
+    padding: 0 16px;
+}
+.xx-small{
+    font-size: 10px;
+    line-height: 1.6;
+}
+.x-small{
+    font-size: 12px;
+    line-height: 1.5;
+}
+.small{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.base{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.middle{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.large{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.x-large{
+    font-size: 32px;
+    line-height: 1.375;
+}
+.xx-large{
+    font-size: 36px;
+    line-height: 1.3333333333333333;
+}
+.xxx-large{
+    font-size: 40px;
+    line-height: 1.3;
+}
+.pc{font-size: 16px;}
+dt.pc{font-weight: 700; line-height: 1.8;}
+dd.pc{line-height: 1.6875;}
+.sp{font-size: 14px;}
+dt.sp{font-weight: 700; line-height: 1.8;}
+dd.sp{line-height: 1.6875;}
+.bottom-bar{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    height: 46px;
+    background-color: #068000;
+    width: 100%;
+}
+.bottom-bar a{
+    position: absolute;
+    display: inline-block;
+    height: 46px;
+    padding: 16px;
+    line-height: 1.0;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+}
+.bottom-bar a.left{
+    left: 0;
+}
+.bottom-bar a.right{
+    right: 0;
+}
