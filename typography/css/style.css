@@ -17,12 +17,12 @@ ul{
 }
 ul.large{
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.6875;
     padding: 16px;
 }
 ul.small{
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.6875;
     padding: 16px;
 }
 dl{
@@ -65,10 +65,10 @@ dl{
     line-height: 1.3;
 }
 .pc{font-size: 16px;}
-dt.pc{font-weight: 700; line-height: 1.8;}
+dt.pc{font-weight: 700; line-height: 1.6;}
 dd.pc{line-height: 1.6875;}
 .sp{font-size: 14px;}
-dt.sp{font-weight: 700; line-height: 1.8;}
+dt.sp{font-weight: 700; line-height: 1.6;}
 dd.sp{line-height: 1.6875;}
 .bottom-bar{
     color: white;
