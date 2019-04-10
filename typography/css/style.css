@@ -99,14 +99,17 @@ dd.sp{line-height: 1.5;}
 table{
   border-collapse: collapse;
   margin: 16px;
+  text-align: left;
 }
 th, td{
   border-collapse: collapse;
   border: 1px solid #CCC;
-  padding: 8px;
+  padding: 16px;
   margin:n 0;
 }
-
 th{
   background-color: #EAEAEA;
+}
+h1, h2{
+  padding: 16px;
 }
