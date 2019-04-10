@@ -7,7 +7,7 @@ body{
     padding-bottom: 64px;
 }
 .bold{
-    font-weight: 900;
+    font-weight: 700;
 }
 p{
     padding: 0 16px;
@@ -95,4 +95,18 @@ dd.sp{line-height: 1.5;}
 }
 .bottom-bar a.right{
     right: 0;
+}
+table{
+  border-collapse: collapse;
+  margin: 16px;
+}
+th, td{
+  border-collapse: collapse;
+  border: 1px solid #CCC;
+  padding: 8px;
+  margin:n 0;
+}
+
+th{
+  background-color: #EAEAEA;
 }
