@@ -1,0 +1,41 @@
+@charset "utf-8";
+.grey-scale ul{
+    padding: 0;
+    margin: 0;
+}
+.grey-scale ul li{
+    padding: 16px;
+    margin: 0;
+    font-size: 16px;
+    list-style: none;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.dark-grey{
+    background-color: #333;
+    color: white;
+}
+.mid-grey{
+    background-color: #767676;
+    color: white;
+}
+.grey{
+    background-color: #999;
+}
+.light-grey{
+    background-color: #CCC;
+}
+.lighter-grey{
+    background-color: #EAEAEA;
+}
+.lightest-grey{
+    background-color: #F3F3F3;
+}
+.very-lightest-grey{
+    background-color: #FAFAFA;
+}
+.white{
+    background-color: white;
+}
