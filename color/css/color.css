@@ -63,3 +63,45 @@
 .white-smoke{
     background-color: #F7F7F7;
 }
+
+/*outline*/
+.out-line ul li{
+    list-style: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 44px;
+    background-color: white;
+    color: #333;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 16px;
+    vertical-align: middle;
+    padding: 8px;
+}
+.out-line ul .granite-gray{
+    border-color: #686868;
+}
+.out-line ul .sonic-silver{
+    border-color: #767676;
+}
+.out-line ul .old-silver{
+    border-color: #828282;
+}
+.out-line ul .spanish-gray{
+    border-color: #9c9c9c;
+}
+.out-line ul .spanish-gray{
+    border-color: #9c9c9c;
+}
+.out-line ul .ash-gray{
+    border-color: #B6B6B6;
+}
+.out-line ul .light-gray{
+    border-color: #D1D1D1;
+}
+.out-line ul .Isabelline{
+    border-color: #EBEBEB;
+}
+.out-line ul .white-smoke{
+    border-color: #F7F7F7;
+}
