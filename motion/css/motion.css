@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*-- button --*/
+button{
+	appearance: none;
+  	border: none;
+  	background-color: #54822B;
+  	font-size: 14px;
+  	line-height: 14px;
+  	font-weight: 700;
+  	color: white;
+  	border-radius: 3px;
+  	margin: 16px;
+  	width: 90px;
+}
+button:hover{
+    background-color: #A9C095;
+}
+.small{
+    height: 36px;
+}
+.large{
+    height: 44px;
+}
