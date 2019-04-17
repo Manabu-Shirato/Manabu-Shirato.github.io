@@ -65,6 +65,10 @@
 }
 
 /*outline*/
+.out-line ul{
+    padding: 0;
+    margin: 0;
+}
 .out-line ul li{
     list-style: none;
     border-radius: 3px;
@@ -103,5 +107,94 @@
     border-color: #EBEBEB;
 }
 .out-line ul .white-smoke{
+    border-color: #F7F7F7;
+}
+/* solid divider */
+.solid-divider ul{
+    padding: 0;
+    margin: 0;
+}
+.solid-divider ul li{
+    list-style: none;
+    box-sizing: border-box;
+    height: 44px;
+    background-color: white;
+    color: #333;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    margin-bottom: 16px;
+    vertical-align: middle;
+    padding: 8px;
+}
+.solid-divider ul .granite-gray{
+    border-color: #686868;
+}
+.solid-divider ul .sonic-silver{
+    border-color: #767676;
+}
+.solid-divider ul .old-silver{
+    border-color: #828282;
+}
+.solid-divider ul .spanish-gray{
+    border-color: #9c9c9c;
+}
+.solid-divider ul .spanish-gray{
+    border-color: #9c9c9c;
+}
+.solid-divider ul .ash-gray{
+    border-color: #B6B6B6;
+}
+.solid-divider ul .light-gray{
+    border-color: #D1D1D1;
+}
+.solid-divider ul .Isabelline{
+    border-color: #EBEBEB;
+}
+.solid-divider ul .white-smoke{
+    border-color: #F7F7F7;
+}
+
+/* solid divider */
+.dotted-divider ul{
+    padding: 0;
+    margin: 0;
+}
+.dotted-divider ul li{
+    list-style: none;
+    box-sizing: border-box;
+    height: 44px;
+    background-color: white;
+    color: #333;
+    border-width: 0 0 1px 0;
+    border-style: dotted;
+    margin-bottom: 16px;
+    vertical-align: middle;
+    padding: 8px;
+}
+.dotted-divider ul .granite-gray{
+    border-color: #686868;
+}
+.dotted-divider ul .sonic-silver{
+    border-color: #767676;
+}
+.dotted-divider ul .old-silver{
+    border-color: #828282;
+}
+.dotted-divider ul .spanish-gray{
+    border-color: #9c9c9c;
+}
+.dotted-divider ul .spanish-gray{
+    border-color: #9c9c9c;
+}
+.dotted-divider ul .ash-gray{
+    border-color: #B6B6B6;
+}
+.dotted-divider ul .light-gray{
+    border-color: #D1D1D1;
+}
+.dotted-divider ul .Isabelline{
+    border-color: #EBEBEB;
+}
+.dotted-divider ul .white-smoke{
     border-color: #F7F7F7;
 }
