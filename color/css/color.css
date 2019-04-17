@@ -39,3 +39,27 @@
 .white{
     background-color: white;
 }
+
+.granite-gray{
+    background-color: #686868;
+    color: white;
+}
+.old-silver{
+    background-color: #828282;
+    color: white;
+}
+.spanish-gray{
+    background-color: #9C9C9C;
+}
+.ash-gray{
+    background-color: #B6B6B6;
+}
+.light-gray{
+    background-color: #D1D1D1;
+}
+.isabelline{
+    background-color: #EBEBEB;
+}
+.white-smoke{
+    background-color: #F7F7F7;
+}
