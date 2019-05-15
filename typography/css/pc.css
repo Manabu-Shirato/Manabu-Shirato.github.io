@@ -5,9 +5,6 @@ body{
     margin: 0;
     padding: 0;
     color: #333;
-    -moz-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%;
-    -ms-text-size-adjust:100%;
 }
 p{
     padding: 8px 16px;
