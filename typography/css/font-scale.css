@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+html{
+    -moz-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+p{
+    padding: 8px 16px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.xxxl-bold{
+    font-size: 28px;
+    line-height: 1.25;
+}
+
+.xxl-bold{
+    font-size: 24px;
+    line-height: 1.25
+}
+.xl-bold{
+    font-size: 20px;
+    line-height: 1.35;
+}
+.l-bold{
+    font-size: 16px;
+    line-height: 1.375;
+}
+.base-bold{
+    font-size: 14px;
+    line-height: 1.43;
+}
+.base-body{
+    font-size: 14px;
+    line-height: 1.43;
+}
+.sub-body{
+    font-size: 12px;
+    line-height: 1.5;
+}
