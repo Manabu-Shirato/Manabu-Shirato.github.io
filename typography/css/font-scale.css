@@ -29,15 +29,20 @@ p{
     margin: 0;
 }
 
-.xxxl-bold{
+.xxxxl-bold{
     font-size: 28px;
     line-height: 1.25;
 }
 
-.xxl-bold{
+.xxxl-bold{
     font-size: 24px;
     line-height: 1.25
 }
+.xxl-bold{
+    font-size: 22px;
+    line-height: 1.273
+}
+
 .xl-bold{
     font-size: 20px;
     line-height: 1.35;
@@ -50,6 +55,12 @@ p{
     font-size: 14px;
     line-height: 1.43;
 }
+
+.s-bold{
+    font-size: 12px;
+    line-height: 1.42;
+}
+
 .base-body{
     font-size: 14px;
     line-height: 1.43;
