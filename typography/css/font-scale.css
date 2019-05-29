@@ -29,43 +29,39 @@ p{
     margin: 0;
 }
 
-.xxxxl-bold{
-    font-size: 28px;
+.solar{
+    font-size: 24px;
     line-height: 1.25;
 }
-
-.xxxl-bold{
-    font-size: 24px;
-    line-height: 1.25
-}
-.xxl-bold{
+.jupiter{
     font-size: 22px;
-    line-height: 1.273
+    line-height: 1.28;
 }
-
-.xl-bold{
+.saturn{
     font-size: 20px;
-    line-height: 1.35;
+    line-height: 1.2;
 }
-.l-bold{
+.uranus{
+    font-size: 18px;
+    line-height: 1.22;
+}
+.neputune{
     font-size: 16px;
-    line-height: 1.375;
+    line-height: 1.25;
 }
-.base-bold{
+.venus{
     font-size: 14px;
-    line-height: 1.43;
+    line-height: 1.28;
 }
-
-.s-bold{
-    font-size: 12px;
-    line-height: 1.42;
-}
-
-.base-body{
-    font-size: 14px;
-    line-height: 1.43;
-}
-.sub-body{
+.mars{
     font-size: 12px;
     line-height: 1.5;
+}
+.terra{
+    font-size: 14px;
+    line-height: 1.43;
+}
+.luna{
+    font-size: 12px;
+    line-height: 1.5px;
 }
